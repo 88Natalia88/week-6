@@ -36,7 +36,7 @@ grid-gap: 10px;
     grid-area: footer;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 10%;
+    
 }
 #footer{
     margin: 15px;
@@ -47,18 +47,9 @@ grid-gap: 10px;
     border-radius: 5px;
 
 }
-.number1{
-    grid-area: number1;
+.number{
     background-color: bisque;
     height: 50px;
-}
-.number2{
-    grid-area: number2;
-    background-color: bisque;
-    height: 50px;
-}
-.number3{
-    grid-area: number3;
-    background-color: bisque;
-    height: 50px;
+    display: grid;
+
 }
