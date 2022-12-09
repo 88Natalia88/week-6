@@ -6,7 +6,7 @@
     "main main aside"
     "footer footer footer";
 grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 10% 1fr 10%;
+grid-template-rows: 1fr 8fr 1fr;
 grid-gap: 10px;
 }
 .header{
@@ -52,17 +52,17 @@ grid-gap: 10px;
     background-color: bisque;
     height: 50px;
     grid-column: 1/2;
-    grid-row: 1/1;
+    grid-row: 8/9;
 }
 .number2{
     background-color: bisque;
     height: 50px;
     grid-column: 2/2;
-    grid-row: 1/2;
+    grid-row: 8/9;
 }
 .number3{
     background-color: bisque;
     height: 50px;
-    grid-row: 2/2;
+    grid-row: 9/10;
     grid-column: 1/3;
 }
